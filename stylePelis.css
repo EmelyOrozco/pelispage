@@ -1,0 +1,41 @@
+header{
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    color: red;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding: 100px;
+}
+
+
+.caja{
+    background-color: aliceblue;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
